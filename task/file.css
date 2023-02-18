@@ -1,0 +1,79 @@
+img{
+position: relative;
+left: 0%;
+bottom: 0.27%;
+width: 100%;
+height: 963px;
+}
+.c1{
+    position: absolute;
+    left: 8.28%;
+    right: 77.34%;
+    top: 30.99%;
+    bottom: 33.45%;
+    background-repeat: no-repeat;
+    background-image: url(book.png);
+    background-color: white;  
+    clip-path: circle(80px at 35% 25%);
+
+}
+#one{
+    position: absolute;
+    left: 10.45%;
+    top: 47%;
+
+}
+.c2{
+    position: absolute;
+    left: 31.8%;
+    right: 55%;
+    top: 30.99%;
+    bottom: 33.45%;
+    background-repeat: no-repeat;
+    background-image: url(mssg.png);
+    background-color: white;  
+    clip-path: circle(80px at 35% 25%);
+
+}
+#two{
+
+position: absolute;
+left: 34%;
+top: 47%;
+}
+.c3{    
+    position: absolute; 
+    left: 52.81%;
+    right: 29.69%;
+    top: 30.99%;    
+    bottom: 33.45%;
+    background-repeat: no-repeat;
+    background-image: url(hands.png);
+    background-color: white;  
+    clip-path: circle(80px at 35% 25%);
+
+}
+#three{
+
+position: absolute;
+left: 56.5%;
+top: 47%;
+}
+.c4{    
+    position: absolute; 
+    left: 75.94%;
+    right: 7.58%;
+    top: 30.99%;    
+    bottom: 33.45%;
+    background-repeat: no-repeat;
+    background-image: url(link.png);
+    background-color: white;  
+    clip-path: circle(84px at 35% 30%);
+
+}
+#four{
+
+position: absolute;
+left: 78.91%;
+top: 49%;
+}
