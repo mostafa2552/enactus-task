@@ -1,79 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 img{
 position: relative;
 left: 0%;
-bottom: 0.27%;
+right: 30px;
+top: -2px;
 width: 100%;
-height: 963px;
+height: 970px;
 }
+/*-----------------------------Circle one------------------------------------------*/
 .c1{
     position: absolute;
-    left: 8.28%;
-    right: 77.34%;
-    top: 30.99%;
-    bottom: 33.45%;
+    left: 9.28%;
+    top: 25.99%;
+    height: 250px;
+    width: 250px;
+    
+   
     background-repeat: no-repeat;
     background-image: url(book.png);
-    background-color: white;  
-    clip-path: circle(80px at 35% 25%);
+    background-position: center;
+    background-color: white;
+    border-radius: 50%;  
 
 }
+/*-----------------------------text one------------------------------------------*/
 #one{
     position: absolute;
-    left: 10.45%;
-    top: 47%;
+    left: 13.45%;
+    top: 53%;
 
 }
+/*-----------------------------Circle two------------------------------------------*/
 .c2{
     position: absolute;
     left: 31.8%;
-    right: 55%;
-    top: 30.99%;
-    bottom: 33.45%;
+    top: 25.99%;
+    height: 250px;
+    width: 250px;
     background-repeat: no-repeat;
     background-image: url(mssg.png);
     background-color: white;  
-    clip-path: circle(80px at 35% 25%);
+    background-position: center;
+    border-radius: 50%;
 
 }
+/*-----------------------------text two------------------------------------------*/
 #two{
 
 position: absolute;
-left: 34%;
-top: 47%;
+left: 36%;
+top: 53%;
 }
+/*-----------------------------Circle three------------------------------------------*/
 .c3{    
     position: absolute; 
     left: 52.81%;
-    right: 29.69%;
-    top: 30.99%;    
-    bottom: 33.45%;
+    top: 25.99%;
+    height: 250px;
+    width: 250px;
     background-repeat: no-repeat;
     background-image: url(hands.png);
     background-color: white;  
-    clip-path: circle(80px at 35% 25%);
-
+    background-position: center;
+    border-radius: 50%;
 }
+/*-----------------------------text three------------------------------------------*/
 #three{
 
 position: absolute;
-left: 56.5%;
-top: 47%;
+left: 57%;
+top: 53%;
 }
+/*-----------------------------Circle four------------------------------------------*/
 .c4{    
     position: absolute; 
     left: 75.94%;
-    right: 7.58%;
-    top: 30.99%;    
-    bottom: 33.45%;
+    top: 25.99%;
+    height: 250px;
+    width: 250px;
     background-repeat: no-repeat;
     background-image: url(link.png);
-    background-color: white;  
-    clip-path: circle(84px at 35% 30%);
+    background-color: white;
+    background-position: center;
+    border-radius: 50%;  
 
 }
+/*-----------------------------text four------------------------------------------*/
 #four{
 
 position: absolute;
-left: 78.91%;
-top: 49%;
+left: 80%;
+top: 53%;
 }
