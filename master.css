@@ -80,3 +80,19 @@ font-weight: 400;
 font-size: 24px;
 color: #000000;
 }
+.photo2 
+{
+position: absolute;
+width: 550px;
+height: 547px;
+left: 1000px;
+}
+.photo3
+{
+position: absolute;
+width: 230px;
+height: 260px;
+left: 1100px;
+top: 164px;
+}
+
