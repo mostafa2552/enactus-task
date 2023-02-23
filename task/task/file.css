@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#me_img{
+position: relative;
+left: 0%;
+right: 30px;
+top: -2px;
+width: 100%;
+height: 970px;
+}
+/*-----------------------------Circle one------------------------------------------*/
+.c1{
+    position: absolute;
+    left: 9.28%;
+    top: 445%;
+    height: 250px;
+    width: 250px;
+    
+   
+    background-repeat: no-repeat;
+    background-image: url(book.png);
+    background-position: center;
+    background-color: white;
+    border-radius: 50%;  
+
+}
+/*-----------------------------text one------------------------------------------*/
+#one{
+    position: absolute;
+    left: 10.95%;
+    top: 471%;
+
+}
+/*-----------------------------Circle two------------------------------------------*/
+.c2{
+    position: absolute;
+    left: 31.8%;
+    top: 445%;
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-image: url(mssg.png);
+    background-color: white;  
+    background-position: center;
+    border-radius: 50%;
+
+}
+/*-----------------------------text two------------------------------------------*/
+#two{
+
+position: absolute;
+left: 34%;
+top: 471%;
+}
+/*-----------------------------Circle three------------------------------------------*/
+.c3{    
+    position: absolute; 
+    left: 52.81%;
+    top: 445%;
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-image: url(hands.png);
+    background-color: white;  
+    background-position: center;
+    border-radius: 50%;
+}
+/*-----------------------------text three------------------------------------------*/
+#three{
+
+position: absolute;
+left: 55%;
+top: 471%;
+}
+/*-----------------------------Circle four------------------------------------------*/
+.c4{    
+    position: absolute; 
+    left: 75.94%;
+    top: 445%;
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-image: url(link.png);
+    background-color: white;
+    background-position: center;
+    border-radius: 50%;  
+
+}
+/*-----------------------------text four------------------------------------------*/
+#four{
+
+position: absolute;
+left: 78%;
+top: 471%;
+}

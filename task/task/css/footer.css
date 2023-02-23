@@ -1,0 +1,53 @@
+
+#footer{
+    position: relative;
+    width: 2223px;
+    height: 480px;    
+    background: #F5F5F5;
+    padding: 10px;
+    top: 0px;
+    width: 100%;
+}
+.n2{   
+    position: absolute;
+    width: 217px;
+    height: 22px;
+    left: 850px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    
+    color: #000000;
+    
+    } 
+
+.n3{
+    position: absolute;
+    width: 217px;
+    height: 22px;
+    left: 1430px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+}
+#im{
+
+position: absolute;
+width: 235px;
+height: 201px;
+top: 70px;
+}
+.icon{
+    position: absolute;
+    width: 81.42px;
+    height:82.84px;
+    top: 380.99px;
+
+
+}
+
+
+
+
+
+
