@@ -1,0 +1,54 @@
+.photo1 {
+  
+position: absolute;
+width: 294px;
+height: 364px;
+left: 0px;
+top: 92px;
+
+    
+    
+}
+.photo2 {
+    position: absolute;
+    width: 317px;
+    height: 436px;
+    left: 705px;
+    top: 57px;
+}
+.photo3 {
+   
+position: absolute;
+width: 375.03px;
+height: 408.69px;
+left: 1405.05px;
+top: 72.78px;
+
+
+}
+
+#p1{
+    position: absolute;
+width: 391px;
+height: 149px;
+left: 20px;
+top: 505px;
+}
+#p2{
+    position: absolute;
+width: 378px;
+height: 143px;
+left: -15px;
+top: 534px;
+
+
+}
+#p3{
+    position: absolute;
+width: 378px;
+height: 143px;
+left: 4px;
+top: 534px;
+
+
+}

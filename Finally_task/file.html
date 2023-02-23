@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="file.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/nav.css">
+</head>
+<body>
+          <!--nav-->
+          <section id="nav">
+          <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"></div>
+                <ul>
+                    <li> <a href="#nav"> home </a></li>
+                    <li> <a href="#noor"> about </a></li>
+                    <li> <a href="#footer"> contact us </a></li>
+                </ul>
+                <img id="icon_img" src="1.png" alt=""> 
+            </div>
+        </nav>
+        <h1 id="nav_h"> WELCOME TO ENACTUS </h1>
+        <P id="nav_p"> LOREM IPSUM IS PLACEHOLER TEXT COMMONLY USED </P>
+        <div id="nav_photo">
+            <img id="nav_img" src="1.png" alt=""> 
+        </div>
+        <a id="nav_a" href="#noor"> About Us</a>
+      </section>
+          <!--end_nav-->
+
+
+        <!--adel_p1-->
+        <section id="adel">
+        <div class="photo1">
+          <img src="3.jpg.jpeg" alt="">
+          <p id="p1"> lorem fail and it is a great time  </p>
+          </div>
+          <div class="photo2">
+          <img src="4.jpg.jpeg" alt="">
+          <p id="p2"> lorem fail and it is a great time </p>
+          </div>
+          <div class="photo3">
+          <img src="5.jpg.jpeg" alt="">
+          <p id="p3"> lorem fail and it is a great time </p>
+          </div>
+        </section>
+      <!--end adel_p1-->
+
+      <!--noor-->
+      <section id="noor">
+      <div class="one">
+      </div>
+      <div class="two"> 
+      </div>
+      <div class="three">
+      </div>
+      <h1>about us</h1>
+  
+     <p><span>loremlo</span>ran is a great time to get a new job <span>and the fa</span>ct that you have a great day to day</p>
+    <img id="noor_img" src="e.png"></img> 
+  </section>
+  
+    <!--end noor-->
+
+    <!-- mostaf-->
+    <section id="mostafa">
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img class="mo" src="im.jpeg" style="width:100%">
+      <div class="text">Hiring day</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img class="mo" src="m2.jpeg" style="width:100%">
+      <div class="text">whole team</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img class="mo" src="m3.jpeg" style="width:100%">
+      <div class="text">Hiring team</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    </section>
+    <!-- end mostaf-->
+    <!--me-->
+    <section id="me">
+    <img id = "me_img" src="Vector.png" alt="">
+    <div class="c1"></div>
+    <h1 id="one">benfit</h1>
+    <div class="c2"></div>
+    <h1 id="two">benfit</h1>
+    <div class="c3"></div>
+    <h1 id="three">benfit</h1>
+    <div class="c4"></div>
+    <h1 id="four">benfit</h1>
+    </section>
+    <!--me-->
+
+    <!--footer-->
+    <section id="footer">
+        <img id="im" src="e.png" alt="" width="100px" style="position:relative; left:40px;">
+        <p style="position: absolute; width: 460px;height: 148px;left: 287px;top: 170px;font-family: 'Inter';font-style: normal;font-weight: 800;
+        font-size: 64px;line-height: 77px;color: #000000;">Enactus</p>
+        <p style="position: absolute;width: 348px;height:24px;left: 247px;top: 280px;font-family: 'Inter';font-style: normal;font-weight: 800;
+        font-size: 32px;line-height: 39px;color: #000000;">winter is coming</p>
+           
+            <a href=""><img class="icon" src="linkedin.png" alt="" style="left: 100px;"></a>
+            <a href=""><img class="icon" src="instagram.png" alt="" style="left: 289.29px;"></a>
+            <a href=""><img class="icon" src="facebook.png" alt="" style="left:478.58px;"> </a>
+    
+                              <!--Sections-->
+          <h1 class="n2" style="top: 60px; font-size: 40px;">sections</h1>
+          <p class="n2" style="top: 160px;">Home</p>
+          <p class="n2" style="top: 220px;">about</p>
+          <p class="n2" style="top: 280px;">problem</p>
+          <p class="n2" style="top: 340px;width: 450px;">meet our high bord</p>
+
+                            <!--Our department-->
+          <h1 class="n3" style="top: 60px; font-size: 40px; width: 400px;" >Our department</h1>
+          <p class="n3" style="top: 160px">technology</p>
+          <p class="n3" style="top: 220px">hr</p>
+          <p class="n3" style="top: 280px">presention</p>
+          <p class="n3" style="top: 340px">pr/fr</p>
+          <p class="n3" style="top: 400px">pm</p>
+    </section>
+        <!--end footer-->
+
+           
+</body>
+</html>
