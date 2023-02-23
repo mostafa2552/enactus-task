@@ -1,18 +1,70 @@
-.photo1 {
-    text-align: center;
-    display: inline-block;
-    padding: 30px;
-    margin: 30px;
+* {
+    text-decoration: none;
 }
-.photo2 {
-    text-align: center;
-    display: inline-block;
-    padding: 30px;
-    margin: 30px;
+.navbar{
+    background-color: #1D1D1D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px
 }
-.photo3 {
-    text-align: center;
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
     display: inline-block;
-    padding: 30px;
-    margin: 30px;
+
+}
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    padding: 40px;
+}
+h1 
+{
+position: absolute;
+width: 616.37px;
+height: 95.07px;
+left: 64.88px;
+top: 162.13px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+padding: 80px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+p 
+{
+position: absolute;
+width: 481.62px;
+height: 88.93px;
+left: 81.38px;
+top: 257.2px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+padding: 80px;
+}
+.photo {
+position: relative;
+left: 1100px;
+right: 1400px;
+height: 700px;
+width: 800px;
+border-radius: 50%;
+background-color: orange;
+}
+img {
+    padding: 200px;
+    width: 288px;
 }
