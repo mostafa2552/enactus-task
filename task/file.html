@@ -9,9 +9,111 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
-    <img src="Vector.png" alt="">
+        <!--adel_p1-->
+        <section id="adel">
+        <div class="photo1">
+          <img src="3.jpg.jpeg" alt="">
+          <p id="p1"> lorem fail and it is a great time  </p>
+          </div>
+          <div class="photo2">
+          <img src="4.jpg.jpeg" alt="">
+          <p id="p2"> lorem fail and it is a great time </p>
+          </div>
+          <div class="photo3">
+          <img src="5.jpg.jpeg" alt="">
+          <p id="p3"> lorem fail and it is a great time </p>
+          </div>
+        </section>
+      <!--end adel_p1-->
+
+      <!--noor-->
+      <section id="noor">
+      <div class="one">
+      </div>
+      <div class="two"> 
+      </div>
+      <div class="three">
+      </div>
+      <h1>about us</h1>
+  
+     <p><span>loremlo</span>ran is a great time to get a new job <span>and the fa</span>ct that you have a great day to day</p>
+    <img id="noor_img" src="e.png"></img> 
+  </section>
+  
+    <!--end noor-->
+
+    <!-- mostaf-->
+    <section id="mostafa">
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img class="mo" src="im.jpeg" style="width:100%">
+      <div class="text">Hiring day</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img class="mo" src="m2.jpeg" style="width:100%">
+      <div class="text">whole team</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img class="mo" src="m3.jpeg" style="width:100%">
+      <div class="text">Hiring team</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    </section>
+    <!-- end mostaf-->
+    <!--me-->
+    <section id="me">
+    <img id = "me_img" src="Vector.png" alt="">
     <div class="c1"></div>
     <h1 id="one">benfit</h1>
     <div class="c2"></div>
@@ -20,12 +122,15 @@
     <h1 id="three">benfit</h1>
     <div class="c4"></div>
     <h1 id="four">benfit</h1>
+    </section>
+    <!--me-->
 
+    <!--footer-->
     <div class="footer">
-        <img id="im" src="e.png" alt="" width="100px" style="position:relative; left:20px;">
-        <p style="position: absolute; width: 460px;height: 148px;left: 287px;top: 206px;font-family: 'Inter';font-style: normal;font-weight: 800;
+        <img id="im" src="e.png" alt="" width="100px" style="position:relative; left:40px;">
+        <p style="position: absolute; width: 460px;height: 148px;left: 287px;top: 170px;font-family: 'Inter';font-style: normal;font-weight: 800;
         font-size: 64px;line-height: 77px;color: #000000;">Enactus</p>
-        <p style="position: absolute;width: 348px;height: 24px;left: 247px;top: 323px;font-family: 'Inter';font-style: normal;font-weight: 800;
+        <p style="position: absolute;width: 348px;height:24px;left: 247px;top: 280px;font-family: 'Inter';font-style: normal;font-weight: 800;
         font-size: 32px;line-height: 39px;color: #000000;">winter is coming</p>
            
             <a href=""><img class="icon" src="linkedin.png" alt="" style="left: 100px;"></a>
@@ -47,6 +152,8 @@
           <p class="n3" style="top: 340px">pr/fr</p>
           <p class="n3" style="top: 400px">pm</p>
     </div>
+        <!--end footer-->
+
            
 </body>
 </html>

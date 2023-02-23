@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-img{
+#me_img{
 position: relative;
 left: 0%;
 right: 30px;
@@ -14,7 +14,7 @@ height: 970px;
 .c1{
     position: absolute;
     left: 9.28%;
-    top: 25.99%;
+    top: 237%;
     height: 250px;
     width: 250px;
     
@@ -29,15 +29,15 @@ height: 970px;
 /*-----------------------------text one------------------------------------------*/
 #one{
     position: absolute;
-    left: 13.45%;
-    top: 53%;
+    left: 10.95%;
+    top: 263%;
 
 }
 /*-----------------------------Circle two------------------------------------------*/
 .c2{
     position: absolute;
     left: 31.8%;
-    top: 25.99%;
+    top: 237%;
     height: 250px;
     width: 250px;
     background-repeat: no-repeat;
@@ -51,14 +51,14 @@ height: 970px;
 #two{
 
 position: absolute;
-left: 36%;
-top: 53%;
+left: 34%;
+top: 263%;
 }
 /*-----------------------------Circle three------------------------------------------*/
 .c3{    
     position: absolute; 
     left: 52.81%;
-    top: 25.99%;
+    top: 237%;
     height: 250px;
     width: 250px;
     background-repeat: no-repeat;
@@ -71,14 +71,14 @@ top: 53%;
 #three{
 
 position: absolute;
-left: 57%;
-top: 53%;
+left: 55%;
+top: 263%;
 }
 /*-----------------------------Circle four------------------------------------------*/
 .c4{    
     position: absolute; 
     left: 75.94%;
-    top: 25.99%;
+    top: 237%;
     height: 250px;
     width: 250px;
     background-repeat: no-repeat;
@@ -92,6 +92,6 @@ top: 53%;
 #four{
 
 position: absolute;
-left: 80%;
-top: 53%;
+left: 78%;
+top: 263%;
 }

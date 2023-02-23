@@ -6,7 +6,7 @@
     background: #F5F5F5;
     padding: 10px;
     top: 0px;
-    width: 1000%;
+    width: 100%;
 }
 .n2{   
     position: absolute;
@@ -35,14 +35,13 @@
 position: absolute;
 width: 235px;
 height: 201px;
-left: 52px;
-top: 122px;
+top: 70px;
 }
 .icon{
     position: absolute;
     width: 81.42px;
-    height: 82.84px;
-    top: 409.99px;
+    height:82.84px;
+    top: 380.99px;
 
 
 }
